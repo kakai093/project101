@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 101</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+</head>
+<style>
+	body {
+	    background-color: #000;
+	}
+	.home {
+	    background-image: url(s11.png);
+	    height: 1200px;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    margin: 0 auto;
+	    background-position: center;
+	    width: 100%;
+	}
+	.bio {
+		height: 500px;
+		background: #fff;
+	}
+    .typewriter h1 {
+      color: #fff;
+      font-family: monospace;
+      font-size: 60px;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+        typing 4.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+    }
+    .typewriter p {
+      color: #fff;
+      font-family: monospace;
+      font-size: 20px;
+      letter-spacing: .15em; /* Adjust as needed */
+
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+
+</style>
+<body>
+	<div class="ui branding">
+
+		<div class="ui inverted menu">
+			<a class="active item">Home 1</a>
+			<a class="item">Home 2</a>
+			<a class="item">Home 3</a>
+			<a class="item">Home 4</a>
+			<a class="item">Home 5</a>
+
+			<div class="right menu">
+				<div class="header-widget widget text-2 widget_text item">
+					<div class="textwidget">
+						<a href="#" target="_blank" class="ui inverted circular icon button">
+							<i aria-hidden="true" class="facebook icon"></i>
+						</a>
+						<a href="#" target="_blank" class="ui inverted circular icon button">
+							<i aria-hidden="true" class="twitter icon"></i>
+						</a>
+						<a href="#" target="_blank" class="ui inverted circular icon button">
+							<i aria-hidden="true" class="instagram icon"></i>
+						</a>
+						<a href="#" target="_blank" class="ui inverted circular icon button">
+							<i aria-hidden="true" class="youtube icon"></i>
+						</a>
+					</div>
+				</div>		
+			</div>
+		</div>
+
+		<div class="bgimg-2 ui slide center aligned middle aligned container" style="padding-top: 142.344px; max-height: calc(110vh - 172px); height: 900px; min-height: 100%;">
+			<div class="typewriter bgimg-2" style="position: fixed;">
+				<p><img src="clocks.png" width="280"></p>
+				<h1>Maria Kassandra N. Cabacang</h1>
+				<p>Lorem Ipsum Dolor Sit Amet</p>
+			</div>		  
+		</div>
+
+		<div style="background-image: url(home2.jpg); height: 800px;">
+			
+		</div>
+
+		<div></div>
+
+
+	</div>
+
+</body>
+</html>
